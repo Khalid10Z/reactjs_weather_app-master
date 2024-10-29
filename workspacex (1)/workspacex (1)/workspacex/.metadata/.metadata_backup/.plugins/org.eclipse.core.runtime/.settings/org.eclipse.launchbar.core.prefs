@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc55s69_calc_starter LinkServer Debug (1),org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpcxpresso55s69_mailbox_interrupt_cm33_core1 LinkServer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc55s69_calc_starter Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc55s69_calc_starter LinkServer Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc55s69_calc_starter\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc55s69_calc_starter\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:lpc55s69_calc_starter\ LinkServer\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:lpc55s69_calc_starter\ LinkServer\ Debug\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

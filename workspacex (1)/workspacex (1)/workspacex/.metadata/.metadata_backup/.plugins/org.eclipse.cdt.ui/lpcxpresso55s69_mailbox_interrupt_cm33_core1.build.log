@@ -1,0 +1,24 @@
+01:56:32 **** Incremental Build of configuration Debug for project lpcxpresso55s69_mailbox_interrupt_cm33_core1 ****
+make -r -j8 all 
+Building file: ../source/main_core1.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=gnu99 -D__REDLIB__ -DCPU_LPC55S69JBD100 -DCPU_LPC55S69JBD100_cm33_nodsp -DCPU_LPC55S69JBD100_cm33_core1 -DMCUXPRESSO_SDK -DSDK_DEBUGCONSOLE=1 -DCR_INTEGER_PRINTF -DPRINTF_FLOAT_ENABLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__MULTICORE_M33SLAVE -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/source" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/utilities" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/drivers" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/device" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/startup" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/component/uart" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/component/lists" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/CMSIS" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/board" -I"/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/lpcxpresso55s69/driver_examples/mailbox/interrupt/cm33_core1" -O0 -fno-common -g3 -gdwarf-4 -mcpu=cortex-m33+nodsp -c -ffunction-sections -fdata-sections -fno-builtin -fmerge-constants -fmacro-prefix-map="../source/"= -mcpu=cortex-m33+nodsp -mthumb -D__REDLIB__ -fstack-usage -specs=redlib.specs -MMD -MP -MF"source/main_core1.d" -MT"source/main_core1.o" -MT"source/main_core1.d" -o "source/main_core1.o" "../source/main_core1.c"
+Finished building: ../source/main_core1.c
+ 
+Building target: lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -Xlinker -no-warn-rwx-segments -Xlinker -Map="lpcxpresso55s69_mailbox_interrupt_cm33_core1.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m33+nodsp -mthumb -T lpcxpresso55s69_mailbox_interrupt_cm33_core1_Debug.ld -o "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf" ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o ./utilities/fsl_memcpy.o ./utilities/fsl_str.o  ./startup/boot_multicore_slave.o ./startup/startup_lpc55s69_cm33_core1.o  ./source/main_core1.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_common_arm.o ./drivers/fsl_flexcomm.o ./drivers/fsl_gpio.o ./drivers/fsl_inputmux.o ./drivers/fsl_power.o ./drivers/fsl_reset.o ./drivers/fsl_usart.o  ./device/system_LPC55S69_cm33_core1.o  ./component/uart/fsl_adapter_usart.o  ./component/lists/fsl_component_generic_list.o  ./board/board.o ./board/clock_config.o ./board/pin_mux.o    && arm-none-eabi-objcopy --target elf32-littlearm --verbose --strip-all --remove-section=.ARM.attributes --redefine-sym __vectors_start__=__vectors_start___core_m33slave --keep-symbol __vectors_start___core_m33slave --redefine-sym _data=__start_data_core_m33slave --keep-symbol __start_data_core_m33slave --redefine-sym _edata=__end_data_core_m33slave --keep-symbol __end_data_core_m33slave --remove-section=".bss*" --remove-section=".noinit*" --rename-section .ARM.exidx=".core_m33slave.ARM.exidx" --rename-section .ARM.extab=".core_m33slave.ARM.extab" --rename-section .text=".core_m33slave" --rename-section .data=".core_m33slave.data" --rename-section .data_RAM2=".core_m33slave.data_RAM2" "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf" "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o" && mcux-fixelf "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o"
+Memory region         Used Size  Region Size  %age Used
+            Ram1:       14068 B        48 KB     28.62%
+    rpmsg_sh_mem:          0 GB        16 KB      0.00%
+copy from `lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf' [elf32-littlearm] to `lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf.o' [elf32-littlearm]
+Finished building target: lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf"; # arm-none-eabi-objcopy -v -O binary "lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf" "lpcxpresso55s69_mailbox_interrupt_cm33_core1.bin" ; # checksum -p LPC55S69 -d "lpcxpresso55s69_mailbox_interrupt_cm33_core1.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7160	      0	   6908	  14068	   36f4	lpcxpresso55s69_mailbox_interrupt_cm33_core1.axf
+ 
+
+01:56:33 Build Finished. 0 errors, 0 warnings. (took 430ms)
+

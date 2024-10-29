@@ -1,0 +1,29 @@
+"Task Aware Debugger for GDB" version 11.10.0 (202404041456)
+Copyright 2016-2023 NXP
+==================================
+00:00:35.377 INFO: [ZephyrRTOS] .config file could not be read [/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpc55s69_calc_starter/Debug/.config (No such file or directory)]
+00:00:35.377 INFO: [TadModel] DSF session ID 7 has started.
+00:00:38.952 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+00:00:38.981 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+00:00:42.721 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+00:00:42.796 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_SUSPENDED (SUSPENDED, BREAKPOINT)
+00:00:47.764 INFO: [ZephyrRTOS] .config file could not be read [/home/ahmad/Documents/MCUXpresso_11.10.0_3148/workspacex/lpcxpresso55s69_mailbox_interrupt_cm33_core1/Debug/.config (No such file or directory)]
+00:00:47.764 INFO: [TadModel] DSF session ID 8 has started.
+00:00:50.622 INFO: [TadState] TAD state changed: DEBUG_STARTED -> DEBUG_INIT_0 (RESUMED, USER_REQUEST)
+00:00:50.623 INFO: [TadState] TAD state changed: DEBUG_INIT_0 -> DEBUG_INIT_1 (SUSPENDED, SIGNAL)
+00:00:50.669 INFO: [TadState] TAD state changed: DEBUG_INIT_1 -> DEBUG_SUSPENDED (RESUMED, USER_REQUEST)
+00:00:55.654 INFO: [TadState] TAD state changed: DEBUG_SUSPENDED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:00:56.302 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, BREAKPOINT)
+00:01:01.867 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:03:46.296 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+00:03:46.500 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:03:46.584 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, BREAKPOINT)
+00:03:56.445 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (SUSPENDED, SIGNAL)
+00:03:56.815 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:03:56.890 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, BREAKPOINT)
+00:04:03.895 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:04:10.714 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+00:04:14.779 INFO: [TadState] TAD state changed: READY -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:04:16.967 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> DEBUG_RESUMED (RESUMED, USER_REQUEST)
+00:04:34.206 INFO: [TadState] TAD state changed: DEBUG_RESUMED -> READY (SUSPENDED, SIGNAL)
+00:04:36.414 INFO: [TadModel] DSF session ID 7 has ended.

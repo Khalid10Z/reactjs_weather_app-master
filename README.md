@@ -4,12 +4,12 @@ This project aims to develop a distributed sensor network using the CAN bus as t
 # System Architecture:
 
 3x STM32-Nucleo F411RE Boards
-CAN bus for inter-board communication
+CAN bus for inter-board communication <\n>
 Multiple specialized sensors and one actuator:
-🎮 Dynamixel Servo Motor + Anemometer
-💡 Environmental Sensors (light, pressure, humidity)
-🔄 IMU Module (accelerometer + gyroscope)
-🎯 Board Distribution:
+🎮 Dynamixel Servo Motor + Anemometer<\n>
+💡 Environmental Sensors (light, pressure, humidity)<\n>
+🔄 IMU Module (accelerometer + gyroscope)<\n>
+🎯 Board Distribution:<\n>
 
 Board 1 - Motor Control:
 

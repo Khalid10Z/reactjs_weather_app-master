@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="attention">
+    <file>Triangle-Attention.jpg</file>
+  </qresource>
+</RCC>

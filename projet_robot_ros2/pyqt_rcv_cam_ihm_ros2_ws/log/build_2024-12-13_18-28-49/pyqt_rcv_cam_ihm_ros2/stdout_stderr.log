@@ -1,0 +1,53 @@
+running egg_info
+writing ../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/requires.txt
+writing top-level names to ../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/top_level.txt
+reading manifest file '../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.py -> /home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/build/pyqt_rcv_cam_ihm_ros2/build/lib/pyqt_rcv_cam_ihm_ros2
+running install
+running install_lib
+copying /home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/build/pyqt_rcv_cam_ihm_ros2/build/lib/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.py -> /home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2
+byte-compiling /home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.py to pyqt_rcv_cam_ihm_ros2.cpython-36.pyc
+  File "/home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.py", line 307
+    self.setStyleSheet("""
+        QMainWindow {
+            background-color: #f0f0f0;
+        }
+        QGroupBox {
+            font-weight: bold;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        QGroupBox:title {
+            subcontrol-origin: margin;
+            subcontrol-position: to
+                          
+                     
+                                      
+         
+                   
+                              
+                                   
+                               
+                             
+                          
+         
+                         
+                                      
+                                  ^
+SyntaxError: EOF while scanning triple-quoted string literal
+
+running install_data
+running install_egg_info
+removing '/home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2-0.0.0-py3.6.egg-info' (and everything under it)
+Copying ../../build/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.egg-info to /home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2-0.0.0-py3.6.egg-info
+running install_scripts
+Installing rcv_cam_ihm script to /home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/pyqt_rcv_cam_ihm_ros2
+writing list of installed files to '/home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/build/pyqt_rcv_cam_ihm_ros2/install.log'

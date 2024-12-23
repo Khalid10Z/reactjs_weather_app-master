@@ -1,0 +1,60 @@
+[3.851s] DEBUG:colcon:Command line arguments: ['/home/TP/tools/miniconda3/envs/E021_3_6/bin/colcon', 'build', '--packages-select', 'pyqt_rcv_cam_ihm_ros2']
+[3.852s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f00b4a19d68>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['pyqt_rcv_cam_ihm_ros2'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f00b4a19d68>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f00b4a2a390>)
+[4.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.102s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2'
+[4.102s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.103s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.104s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.106s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.107s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.261s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.262s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.263s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.264s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.309s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'pyqt_rcv_cam_ihm_ros2' in --packages-select
+[4.557s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.604s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.605s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.606s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.606s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[4.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.683s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.683s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify_send'
+[4.720s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.797s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.798s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/local_setup.ps1'
+[4.807s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/_local_setup_util_ps1.py'
+[4.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/setup.ps1'
+[4.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/local_setup.sh'
+[4.884s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/_local_setup_util_sh.py'
+[4.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/setup.sh'
+[4.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/local_setup.bash'
+[4.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/setup.bash'
+[4.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/local_setup.zsh'
+[4.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/src/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2/install/setup.zsh'

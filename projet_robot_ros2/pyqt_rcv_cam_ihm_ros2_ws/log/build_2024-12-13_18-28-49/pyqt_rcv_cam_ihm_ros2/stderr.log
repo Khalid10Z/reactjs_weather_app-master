@@ -1,0 +1,31 @@
+  File "/home/e2023/a3ajarai/Bureau/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.py", line 307
+    self.setStyleSheet("""
+        QMainWindow {
+            background-color: #f0f0f0;
+        }
+        QGroupBox {
+            font-weight: bold;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        QGroupBox:title {
+            subcontrol-origin: margin;
+            subcontrol-position: to
+                          
+                     
+                                      
+         
+                   
+                              
+                                   
+                               
+                             
+                          
+         
+                         
+                                      
+                                  ^
+SyntaxError: EOF while scanning triple-quoted string literal
+

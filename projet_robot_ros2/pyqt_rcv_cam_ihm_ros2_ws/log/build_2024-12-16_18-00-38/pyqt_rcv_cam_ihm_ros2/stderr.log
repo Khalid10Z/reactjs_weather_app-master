@@ -1,0 +1,5 @@
+  File "/home/e2023/a3ajarai/Bureau/projetRobot/pyqt_rcv_cam_ihm_ros2_ws/install/pyqt_rcv_cam_ihm_ros2/lib/python3.6/site-packages/pyqt_rcv_cam_ihm_ros2/pyqt_rcv_cam_ihm_ros2.py", line 12
+    // Modes
+     ^
+SyntaxError: invalid syntax
+

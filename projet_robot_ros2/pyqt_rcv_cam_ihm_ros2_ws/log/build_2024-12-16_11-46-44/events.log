@@ -1,3 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000896] (-) JobUnselected: {'identifier': 'pyqt_rcv_cam_ihm_ros2'}
-[0.001248] (-) EventReactorShutdown: {}

@@ -1,3 +1,0 @@
-[console_scripts]
-rcv_cam_ihm = pyqt_rcv_cam_ihm_ros2.pyqt_rcv_cam_ihm_ros2:main
-
